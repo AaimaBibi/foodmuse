@@ -1,0 +1,71 @@
+.checkout-page {
+  padding: 2rem 8%;
+  background: #fff;
+  min-height: 80vh;
+}
+
+.checkout-page h2 {
+  font-size: 2rem;
+  color: #ff4d4f;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.checkout-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+}
+
+.checkout-form button {
+  background: #ff4d4f;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.checkout-form button:hover {
+  background: #d9363e;
+}
+
+.thank-you {
+  text-align: center;
+  background: #fff0f0;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.thank-you h2 {
+  color: #ff4d4f;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.thank-you p {
+  color: #333;
+  font-size: 1.1rem;
+}

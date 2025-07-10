@@ -1,0 +1,41 @@
+.menu-page {
+  padding: 2rem 8%;
+  background: #fff;
+}
+
+.menu-page h2 {
+  font-size: 2rem;
+  color: #ff4d4f;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 0.5rem 1rem;
+  background: #f9f9f9;
+  border: 1px solid #ff4d4f;
+  border-radius: 20px;
+  color: #ff4d4f;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background: #ff4d4f;
+  color: white;
+}
